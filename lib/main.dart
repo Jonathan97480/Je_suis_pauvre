@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: const MyHomePage(title: 'Je suis pauvre'),
     );
   }
 }
@@ -35,12 +33,6 @@ class _MyHomePageState extends State<MyHomePage> {
   String _pic = "pauvre.jpg";
   String _title = "Je suis pauvre";
   bool _actif = false;
-  void _incrementCounter() {
-    setState(() {
-      _counter++;
-      _pic;
-    });
-  }
 
   @override
   Widget build(BuildContext context) {
